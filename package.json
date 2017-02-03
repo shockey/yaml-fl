@@ -1,0 +1,22 @@
+{
+  "name": "yaml-fl",
+  "version": "0.0.0",
+  "description": "a fault-tolerant, caching pre-parser layer for translating YAML strings to JS objects Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shockey/yaml-fl.git"
+  },
+  "author": "Kyle Shockey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shockey/yaml-fl/issues"
+  },
+  "homepage": "https://github.com/shockey/yaml-fl#readme",
+  "devDependencies": {
+    "js-yaml": "^3.7.0"
+  }
+}
