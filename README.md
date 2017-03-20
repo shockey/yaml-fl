@@ -5,7 +5,7 @@
 Internally, we sit on top of [`js-yaml`](https://github.com/nodeca/js-yaml)'s wonderful loader methods, but add additional work before the conversion phase. We do two broad things to achieve flexibility and speed:
 
 1. Attempt to correct typos and logical errors by piping the YAML string through a set of corrector rules.
-2. Recursively break down the string into smaller pieces, convert them, cache the individual results, and reassemble the entire result into a JavaScript object.
+2. Recursively break down the string into smaller pieces (YAML sub-objects), convert them, cache the individual results, and reassemble the entire result into a JavaScript object.
 
 ### Correctors
 
