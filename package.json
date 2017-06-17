@@ -2,9 +2,9 @@
   "name": "yaml-fl",
   "version": "0.0.0",
   "description": "a fault-tolerant, caching pre-parser layer for translating YAML strings to JS objects Edit",
-  "main": "index.js",
+  "main": "TODO",
   "scripts": {
-    "test": "node tests/index.js"
+    "test": "./node_modules/.bin/_mocha --recursive --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,18 @@
   },
   "homepage": "https://github.com/shockey/yaml-fl#readme",
   "dependencies": {
-    "js-yaml": "^3.7.0"
+    "js-yaml": "^3.7.0",
+    "yaml-ast-parser": "0.0.33"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-transform-object-rest-spread": "6.16.0",
+    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-preset-es2015": "^6.22.0",
+    "expect": "^1.20.2",
+    "mocha": "^2.4.5"
   }
 }

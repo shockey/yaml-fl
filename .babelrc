@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["es2015"]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-object-rest-spread",
+    ["module-alias", [
+      { "src": "./src", "expose": "src" },
+    ]]
+  ],
+  "env": {
+    "test": {
+      "presets": ["es2015"]
+    }
+  }
+}
