@@ -1,6 +1,8 @@
 # YAML Flexible Loader
 
-`YAML-FL` is a JavaScript module that converts YAML strings to JSON. It aims to make YAML parsing faster and more resilient to user input errors, which makes it suitable for situations where YAML is being edited and rendered in real time.
+**⚠️ This is a project that I haven't gotten around to actually implementing yet.**
+
+`yaml-fl` is a JavaScript module that converts YAML strings to JSON. It aims to make YAML parsing faster and more resilient to user input errors, which makes it suitable for situations where YAML is being edited and rendered in real time.
 
 Internally, we sit on top of [`js-yaml`](https://github.com/nodeca/js-yaml)'s wonderful loader methods, but add additional work before the conversion phase. We do two broad things to achieve flexibility and speed:
 
